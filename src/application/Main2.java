@@ -35,7 +35,7 @@ public class Main2 {
         Department dep = departmentDao.findById(3);
         System.out.println(dep);
 
-        System.out.println("\n==== TEST 5: seller findAll ====");
+        System.out.println("\n==== TEST 5: department findAll ====");
         List<Department> list = departmentDao.findAll();
         for (Department obj : list) {
             System.out.println(obj);
